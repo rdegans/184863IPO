@@ -1,6 +1,6 @@
 ﻿/*Name:Riley de Gans
  *Date:Feb. 8th, 2019
- *description
+ *Description:First program dealing with input, processing and output
  */
 using System;
 using System.Collections.Generic;
