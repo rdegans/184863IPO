@@ -12,7 +12,6 @@
         <Label>Width</Label>
         <TextBox x:Name="txtWidth"/>
         <Button x:Name="btnCalculate" Content="Calculate Area" Click="btnCalculate_Click"/>
-        <Label>Area</Label>
-        <Label x:Name="lblOutput"/>
+        <Label x:Name="lblOutput" Content=""/>
     </StackPanel>
 </Window>

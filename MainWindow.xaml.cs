@@ -31,11 +31,14 @@ namespace _184863IPO
 
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
-            decimal length, width, area;
+            decimal length;
+            decimal width;
+            decimal area;
             decimal.TryParse(txtLength.Text, out length);
-            decimal.TryParse(txtLength.Text, out width);
+            decimal.TryParse(txtWidth.Text, out width);
             area = length * width;
             lblOutput.Content = "The area is: " + area.ToString("#.00");
+            area = 0;
         }
     }
 }
